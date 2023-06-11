@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "my-app",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "adaptive",
+      "backgroundColor": "#0D0D0E"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0D0D0E"
+      },
+      "package": "com.apphardware"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "packagerOpts": {
+      "sourceExts": [
+        "cjs"
+      ]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0bdb95db-e655-46b5-b736-b79d9b73f73f"
+      }
+    }
+  }
+}
