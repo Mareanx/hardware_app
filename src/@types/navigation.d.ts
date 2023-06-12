@@ -7,6 +7,7 @@ export declare global {
       SignUp: undefined;
       Loja: undefined;
       Home: undefined;
+      Pagamento: undefined;
       Details: { id: string };
       DetailsProcessador: { id: string };
     }

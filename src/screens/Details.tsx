@@ -18,6 +18,7 @@ import { produtoData } from "../data/produtosMock";
 import { MaterialIcons } from "@expo/vector-icons";
 import { ScrollView, TouchableOpacity } from "react-native-gesture-handler";
 import { TouchableHighlight } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
 type DetailsParams = {
   id: string;
@@ -26,8 +27,8 @@ type DetailsParams = {
 export const Details = () => {
   const { params } = useRoute();
   const { id } = params as DetailsParams;
-
   const product = produtoData.filter((produto) => produto.id === id)[0];
+  const { navigate } = useNavigation();
 
   return (
     <ScrollView>
@@ -75,7 +76,7 @@ export const Details = () => {
               {product.info1}
             </Text>
           </Box>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigate("Pagamento")}>
             <Button
               width={"80%"}
               height={57}

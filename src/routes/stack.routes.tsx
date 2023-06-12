@@ -10,6 +10,7 @@ import { auth } from "../../services/firebaseConfig";
 import { Loading } from "../components/Loading";
 import { Details } from "../screens/Details";
 import { ProcessadorDetails } from "../screens/DetailsProcessador";
+import { Pagamento } from "../screens/Pagamento";
 import Loja from "../screens/Loja";
 
 export function StackRoutes() {
@@ -38,7 +39,6 @@ export function StackRoutes() {
       {userLog ? (
         <>
           <Screen name="Loja" component={DrawerRoutes} />
-
           <Screen name="Home" component={Loja} />
 
           <Screen
@@ -53,7 +53,18 @@ export function StackRoutes() {
               headerTintColor: myTheme.colors.white,
             }}
           />
-
+          <Screen
+            name="Pagamento"
+            component={Pagamento}
+            options={{
+              headerShown: true,
+              headerTitle: "Metodo de Pagamento",
+              headerStyle: {
+                backgroundColor: myTheme.colors.blue,
+              },
+              headerTintColor: myTheme.colors.white,
+            }}
+          />
           <Screen
             name="Details"
             component={Details}
