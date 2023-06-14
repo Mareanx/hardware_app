@@ -11,6 +11,7 @@ export declare global {
       Details: { id: string };
       DetailsProcessador: { id: string };
       DetailsPlacas: { id: string };
+      DetailsSsd: { id: string };
     }
   }
 }

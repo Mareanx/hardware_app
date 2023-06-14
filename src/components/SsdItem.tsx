@@ -31,9 +31,7 @@ export function SsdItem({ data }: SsdItemDataProps) {
       mb={7}
       borderRadius={6}
     >
-      <TouchableOpacity
-        onPress={() => navigate("DetailsPlacas", { id: data.id })}
-      >
+      <TouchableOpacity onPress={() => navigate("DetailsSsd", { id: data.id })}>
         <HStack ml={2}>
           <Image
             height={130}

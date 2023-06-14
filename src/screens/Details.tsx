@@ -15,9 +15,7 @@ import {
 import { myTheme } from "../style/style";
 import { useRoute } from "@react-navigation/native";
 import { produtoData } from "../data/produtosMock";
-import { MaterialIcons } from "@expo/vector-icons";
 import { ScrollView, TouchableOpacity } from "react-native-gesture-handler";
-import { TouchableHighlight } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 
 type DetailsParams = {
