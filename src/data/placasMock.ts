@@ -1,4 +1,4 @@
-export const placasData = [
+export const placaData = [
   {
     id: "50",
     nome: "Placa de Vídeo Zotac Gaming GeForce RTX 3060 Twin Edge OC",
@@ -7,6 +7,9 @@ export const placasData = [
     descricao:
       "Vivencie o jogo com a nova GeForce RTX 3060 Series da ZOTAC GAMING, baseada na arquitectura NVIDIA Ampere. Construída com núcleos RT e tensores aprimorados",
     preco: "R$ 2.199,90",
+    info1: "",
+    info2: "",
+    info3: "",
   },
   {
     id: "51",
@@ -16,6 +19,9 @@ export const placasData = [
     descricao:
       "A ZOTAC GAMING GeForce RTX 4070 Twin Edge OC é uma placa gráfica compacta e poderosa, apresentando a arquitetura NVIDIA Ada Lovelace e um design inspirado na aerodinâmica",
     preco: "R$ 4.499,00",
+    info1: "",
+    info2: "",
+    info3: "",
   },
   {
     id: "52",
@@ -25,6 +31,9 @@ export const placasData = [
     descricao:
       "A tecnologia da placa de vídeo GTX 750 Ti elimina o fenômeno de rasgo da tela e o atraso de entrada. A GTX 750 Ti aumenta duas vezes o desempenho comparado a GTX 650.",
     preco: "   R$ 589,00",
+    info1: "",
+    info2: "",
+    info3: "",
   },
   {
     id: "53",
@@ -34,41 +43,56 @@ export const placasData = [
     descricao:
       "A NVIDIA GeForce RTX 4090 é a GPU GeForce definitiva. Traz um enorme salto em desempenho, eficiência e gráficos com inteligência artificial. Experimente jogos de alta performance",
     preco: "R$ 12.929,00",
+    info1: "",
+    info2: "",
+    info3: "",
   },
   {
     id: "54",
-    fullName: "Placa de Vídeo Gainward NVIDIA GeForce RTX 4080 Phantom, 16GB",
-    ImageUrl:
+    nome: "Placa de Vídeo Gainward NVIDIA GeForce RTX 4080 Phantom, 16GB",
+    imagem:
       "https://img.terabyteshop.com.br/produto/g/placa-de-video-gainward-nvidia-geforce-rtx-4080-phantom-16gb-gddr6x-dlss-ray-tracing-ned4080019t2-1030p_154899.jpg",
-    descProd:
+    descricao:
       "A arquitetura Ada libera toda a glória do Ray Tracing, simulando o comportamento da luz no mundo real. Com o poder da RTX Série 40, dos RT Cores de Terceira Geração",
-    valorProd: "R$ 9.299,00",
+    preco: "R$ 9.299,00",
+    info1: "",
+    info2: "",
+    info3: "",
   },
   {
     id: "55",
-    fullName: "Placa de Vídeo Galax GeForce RTX 3080 Ti SG, 12GB, GDDR6X",
-    ImageUrl:
+    nome: "Placa de Vídeo Galax GeForce RTX 3080 Ti SG, 12GB, GDDR6X",
+    imagem:
       "https://img.terabyteshop.com.br/produto/g/placa-de-video-galax-geforce-rtx-3080-ti-sg-12gb-gddr6x-384bit-38iom5md99dd_123772.png",
-    descProd:
+    descricao:
       "NVIDIA Ampere Streaming Multiprocessors: Base de construção para a GPU mais rápida e eficiente do mundo, o totalmente novo Ampere SM traz duas vezes a taxa de transferência FP32",
-    valorProd: "R$ 5.999,90",
+    preco: "R$ 5.999,90",
+    info1: "",
+    info2: "",
+    info3: "",
   },
   {
     id: "56",
-    fullName: "Placa de Vídeo Colorful NVIDIA GeForce RTX 3080",
-    ImageUrl:
+    nome: "Placa de Vídeo Colorful NVIDIA GeForce RTX 3080",
+    imagem:
       "https://img.terabyteshop.com.br/produto/g/placa-de-video-colorful-geforce-igame-rtx-3080-advanced-oc-12g-lhr-v-12gb-gddr6x-dlss-ray-tracing_139213.jpg",
-    descProd:
+    descricao:
       "Fans triplos com novo design de 13 pás. Por meio do ajuste do equilíbrio dinâmico, o ângulo da borda elevada pode empurrar o fluxo de ar para o radiador aumentando a capacidade de resfriação",
-    valorProd: " R$ 6.399,00",
+    preco: " R$ 6.399,00",
+    info1: "",
+    info2: "",
+    info3: "",
   },
   {
     id: "57",
-    fullName: "Placa De Video Gigabyte GeForce RTX 4070 Ti Eagle OC, 12GB",
-    ImageUrl:
+    nome: "Placa De Video Gigabyte GeForce RTX 4070 Ti Eagle OC, 12GB",
+    imagem:
       "https://img.terabyteshop.com.br/produto/g/placa-de-video-gigabyte-geforce-rtx-4070-ti-eagle-oc-12gb-gddr6x-dlss-ray-tracing-gv-n407teagle-oc-12gd_162268.jpg",
-    descProd:
+    descricao:
       "A NVIDIA GeForce RTX 4070 Ti oferece o ultra desempenho e os recursos que os gamers e criadores entusiastas exigem. Dê vida aos seus jogos e projetos criativos com ray tracing",
-    valorProd: "R$ 7.299,00",
+    preco: "R$ 7.299,00",
+    info1: "",
+    info2: "",
+    info3: "",
   },
 ];

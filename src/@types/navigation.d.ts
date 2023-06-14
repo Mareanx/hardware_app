@@ -10,6 +10,7 @@ export declare global {
       Pagamento: undefined;
       Details: { id: string };
       DetailsProcessador: { id: string };
+      DetailsPlacas: { id: string };
     }
   }
 }

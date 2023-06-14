@@ -57,7 +57,7 @@ export function DrawerRoutes() {
         }}
       />
       <Screen
-        name="Departamento de Placas de Video"
+        name="Placas de Video"
         component={Placas}
         options={{
           title: "Placas de Video",

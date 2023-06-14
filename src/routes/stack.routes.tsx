@@ -12,6 +12,7 @@ import { Details } from "../screens/Details";
 import { ProcessadorDetails } from "../screens/DetailsProcessador";
 import { Pagamento } from "../screens/Pagamento";
 import Loja from "../screens/Loja";
+import { PlacasDetails } from "../screens/DetailsPlacas";
 
 export function StackRoutes() {
   const { Screen, Navigator } = createStackNavigator();
@@ -40,6 +41,19 @@ export function StackRoutes() {
         <>
           <Screen name="Loja" component={DrawerRoutes} />
           <Screen name="Home" component={Loja} />
+
+          <Screen
+            name="DetailsPlacas"
+            component={PlacasDetails}
+            options={{
+              headerShown: true,
+              headerTitle: "",
+              headerStyle: {
+                backgroundColor: myTheme.colors.blue,
+              },
+              headerTintColor: myTheme.colors.white,
+            }}
+          />
 
           <Screen
             name="DetailsProcessador"

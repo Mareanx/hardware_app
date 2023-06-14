@@ -144,7 +144,7 @@ export function SignIn() {
           </Button>
 
           <Text color={myTheme.colors.black} textAlign={"center"} mt={55}>
-            Não possui uma conta?{" "}
+            Não possui uma conta?
             <Text
               color={myTheme.colors.blue}
               onPress={() => navigate("SignUp")}
