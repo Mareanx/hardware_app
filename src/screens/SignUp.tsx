@@ -10,12 +10,15 @@ import {
   Center,
   Divider,
   Input,
+  Pressable,
+  Icon,
 } from "native-base";
 import { myTheme } from "../style/style";
 import { userController } from "../controllers/userController";
 import { useState } from "react";
 import { Alert } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+import { MaterialIcons } from "@expo/vector-icons";
 
 export function SignUp() {
   const [isLoading, setIsLoading] = useState(false);
@@ -26,6 +29,7 @@ export function SignUp() {
   const [telefone, setTelefone] = useState("");
   const [email, setEmail] = useState("");
   const [senha, setSenha] = useState("");
+  const [show, setShow] = useState(false);
 
   const { navigate } = useNavigation();
 
@@ -144,23 +148,42 @@ export function SignUp() {
               borderColor: myTheme.colors.blue,
             }}
           />
-          <FormControl>
-            <FormControl.Label ml={5}>
-              <Text color={myTheme.colors.black}>Senha</Text>
+          <FormControl alignSelf={"center"}>
+            <FormControl.Label ml={1}>
+              <Text mt={1} color={myTheme.colors.black}>
+                Senha
+              </Text>
             </FormControl.Label>
-          </FormControl>
-          <Input
-            width={"90%"}
-            alignSelf={"center"}
-            variant={"outline"}
-            borderColor={myTheme.colors.black}
-            onChangeText={setSenha}
-            _focus={{
-              bg: "blue.200",
-              borderColor: myTheme.colors.blue,
-            }}
-          />
 
+            <Input
+              borderColor={myTheme.colors.black}
+              w={"90%"}
+              type={show ? "text" : "password"}
+              onChangeText={setSenha}
+              InputRightElement={
+                <Pressable onPress={() => setShow(!show)}>
+                  <Icon
+                    as={
+                      <MaterialIcons
+                        name={show ? "visibility" : "visibility-off"}
+                      />
+                    }
+                    size={5}
+                    mr="2"
+                    color="muted.400"
+                  />
+                </Pressable>
+              }
+              _focus={{
+                bg: "blue.200",
+                borderColor: myTheme.colors.blue,
+              }}
+            />
+
+            <FormControl.HelperText ml={1}>
+              sua senha deve ter no minimo 6 caracteres
+            </FormControl.HelperText>
+          </FormControl>
           <HStack space={1} alignSelf={"center"} mt={10}>
             <Checkbox value={"agree"} aria-label="politicas de privacidade" />
             <Text>Concordo com as politicas de privacidade</Text>

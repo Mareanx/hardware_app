@@ -13,7 +13,7 @@ import {
   Button,
 } from "native-base";
 import { myTheme } from "../style/style";
-import { useRoute } from "@react-navigation/native";
+import { useNavigation, useRoute } from "@react-navigation/native";
 import { processadorData } from "../data/processadoresMock";
 import { MaterialIcons } from "@expo/vector-icons";
 import { ScrollView, TouchableOpacity } from "react-native-gesture-handler";
@@ -26,6 +26,7 @@ type DetailsParams = {
 export const ProcessadorDetails = () => {
   const { params } = useRoute();
   const { id } = params as DetailsParams;
+  const { navigate } = useNavigation();
 
   const processador = processadorData.filter(
     (processador) => processador.id === id
@@ -76,7 +77,7 @@ export const ProcessadorDetails = () => {
               {processador.info1}
             </Text>
           </Box>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigate("Pagamento")}>
             <Button
               width={"80%"}
               height={57}

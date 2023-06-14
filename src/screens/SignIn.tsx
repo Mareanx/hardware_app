@@ -120,7 +120,7 @@ export function SignIn() {
               }}
             />
 
-            <FormControl.HelperText mb={2}>
+            <FormControl.HelperText mb={2} ml={1}>
               Esqueceu sua senha?
             </FormControl.HelperText>
           </FormControl>

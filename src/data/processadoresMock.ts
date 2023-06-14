@@ -69,8 +69,10 @@ export const processadorData = [
     preco: "    R$ 487,00",
     info1:
       "À vista no PIX com até 10% OFF, ou em até 10x de R$ 272,22 sem juros no cartão",
-    info2: "",
-    info3: "",
+    info2:
+      "Os novos processadores Intel® Core™ da 10ª geração oferecem atualizações de desempenho incríveis para melhorar a produtividade e proporcionar entretenimento surpreendente. Tecnologia Hyper-Threading Intel® (Tecnologia Intel® HT) oferece dois segmentos de processamento por núcleo físico. Aplicativos altamente segmentados podem fazer trabalhos adicionais paralelamente, concluindo as tarefas mais rapidamente. A Tecnologia de virtualização Intel® (VT-x) permite que uma plataforma de hardware funcione como várias plataformas virtuais. Ela oferece mais capacidade de gerenciamento ao limitar o tempo de paralisação e manter a produtividade dos funcionários, ao isolar as atividades de computação em partições separadas.",
+    info3:
+      "Marca: Intel.  Modelo: BX8070110100F.  Litografia:14 nm.  Número de núcleos:4.  Nº de threads: 8. Frequência baseada em processador: 3.60 GHz. Frequência turbo max: 4.30 GHz. Cache: 6 MB Intel® Smart Cache. Velocidade do barramento: 8 GT/s. TDP: 65 W.Especificações de memória: Tamanho máximo de memória (de acordo com o tipo de memória). 128 GB",
   },
   {
     id: "44",
@@ -82,8 +84,10 @@ export const processadorData = [
     preco: " R$ 1.589,00",
     info1:
       "À vista no PIX com até 10% OFF, ou em até 10x de R$ 272,22 sem juros no cartão",
-    info2: "",
-    info3: "",
+    info2:
+      "Processador de desktop Intel Core  i5 13400 de 13ª geração. Apresentando suporte PCIe Gen 5.0 e 4.0, suporte DDR5 e DDR4, os processadores Intel Core para desktop de 13ª Geração são otimizados para gamers entusiastas e produtores, oferecendo alto desempenho. A nova arquitetura do processador também é compatível com as mais recentes inovações em plataforma, oferecendo melhorias de desempenho em todo o PC. Suporte para PCIe Gen 5 e DDR5 para componentes de alto desempenho, como memória e gráficos. Construido para jogadores que procuram desempenho máximo para jogar os jogos mais recentes, além de ter recursos para lidar com outras cargas de trabalho. Os novos PCs baseaos no processador Intel Core de 13ª geração tornam tudo isso possivel. ",
+    info3:
+      "Marca: Intel. Modelo: BX8071513400. Socket: LGA 1700.  Gráfico Integrado: Gráficos Intel UHD 730. Frequência base: Frequência básica do P-core: 2,5 GHz  Frequência básica do E-core: 1,8 GHz. Frequência turbo max: Frequência turbo máxima do P-core: até 4,6 GHz Frequência turbo máxima do E-core: até 3,3 GHz Cache L2: 9,5MB. Cache L3:20MB.  Núcleos: 10-Core (6P+4E). Threads: 16",
   },
   {
     id: "45",
@@ -95,8 +99,10 @@ export const processadorData = [
     preco: " R$ 1.899,00",
     info1:
       "À vista no PIX com até 10% OFF, ou em até 10x de R$ 272,22 sem juros no cartão",
-    info2: "",
-    info3: "",
+    info2:
+      "Os novos processadores Intel® Core™ da 10ª geração oferecem atualizações de desempenho incríveis para melhorar a produtividade e proporcionar entretenimento surpreendente. Tecnologia Hyper-Threading Intel® (Tecnologia Intel® HT) oferece dois segmentos de processamento por núcleo físico. Aplicativos altamente segmentados podem fazer trabalhos adicionais paralelamente, concluindo as tarefas mais rapidamente. A Tecnologia de virtualização Intel® (VT-x) permite que uma plataforma de hardware funcione como várias plataformas virtuais. Ela oferece mais capacidade de gerenciamento ao limitar o tempo de paralisação e manter a produtividade dos funcionários, ao isolar as atividades de computação em partições separadas. Os gráficos HD Intel®, os gráficos Iris ™, os gráficos Iris Plus e os gráficos Iris Pro oferecem conversão aprimorada de mídia, taxas de quadros rápidas e vídeo 4K Ultra HD (UHD).",
+    info3:
+      "Marca: Intel.  Modelo: BX8070110700K. Litografia: 14 nm. Número de núcleos: 8. Nº de threads: 16. Frequência base: 3.80 GHz.Frequência turbo max: 5.10 GHz. Cache: 16 MB Intel® Smart Cache.  Velocidade do barramento: 8 GT/s. Frequência da Tecnologia Intel® Turbo Boost Max 3.0: 4.80 GHz. TDP: 65 W",
   },
   {
     id: "46",
@@ -108,7 +114,9 @@ export const processadorData = [
     preco: "R$ 1.099,00",
     info1:
       "À vista no PIX com até 10% OFF, ou em até 10x de R$ 272,22 sem juros no cartão",
-    info2: "",
-    info3: "",
+    info2:
+      "O Ryzen 5 5600 conta com 6 núcleos incríveis para quem quer apenas jogar. Os processadores AMD Ryzen série 5000 capacitam a próxima geração de jogos exigentes, proporcionando experiências imersivas únicas e dominando qualquer tarefa multithread como 3D e renderização de vídeo e compilação de software. Todo processador AMD Ryzen tem seu multiplicador desbloqueado de fábrica, para que você possa personalizar o desempenho ao seu gosto. ​ A AMD fornece o utilitário AMD Ryzen Master para acessar essa poderosa vantagem. Você pode alternar entre a nova visão básica e a visão avançada para ver os recursos de overclock mais adequados para você. Estreando nos processadores AMD Ryzen Série 5000 para desktop, a arquitetura “Zen 3” é um redesenho básico da lendária família “Zen”.  Equipado com aprimoramentos de design de ponta a ponta, o “Zen 3” incorpora o foco implacável da AMD no desempenho de núcleo único, eficiência de energia e latências reduzidas. Ele está no centro dos melhores processadores de jogos do mundo.",
+    info3:
+      "Marca: AMD. Modelo: 100-100000927BOX.  Soquete:AM4. Núcleos de CPU: 6. Threads: 12. Clock base: 3.5 GHz. Clock de Max Boost: Até 4.4 GHz. Cache L2 total: 3 MB",
   },
 ];

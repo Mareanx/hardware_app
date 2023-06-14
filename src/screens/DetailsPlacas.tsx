@@ -13,7 +13,7 @@ import {
   Button,
 } from "native-base";
 import { myTheme } from "../style/style";
-import { useRoute } from "@react-navigation/native";
+import { useNavigation, useRoute } from "@react-navigation/native";
 import { placaData } from "../data/placasMock";
 import { MaterialIcons } from "@expo/vector-icons";
 import { ScrollView, TouchableOpacity } from "react-native-gesture-handler";
@@ -26,6 +26,7 @@ type DetailsParams = {
 export const PlacasDetails = () => {
   const { params } = useRoute();
   const { id } = params as DetailsParams;
+  const { navigate } = useNavigation();
 
   const placa = placaData.filter((placa) => placa.id === id)[0];
 
@@ -74,7 +75,7 @@ export const PlacasDetails = () => {
               {placa.info1}
             </Text>
           </Box>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigate("Pagamento")}>
             <Button
               width={"80%"}
               height={57}
